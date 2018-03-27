@@ -1,0 +1,60 @@
+.infobox {
+  z-index: 10;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -200px;
+  border-radius: 5px 5px;
+  padding: 5px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.panel {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ddd;
+  opacity: 0.8;
+  box-shadow: 1px 1px 5px #ccc;
+  font-size: 14;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.timebox {
+  z-index: 10;
+  width: 250px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 5px 5px;
+  padding: 5px;
+}
+
+.startButton {
+  z-index: 10;
+  height: 30px;
+  width: 100px;
+  left: 50%;
+  top: 50%;
+  margin-top: 200px;
+  margin-left: -50px;
+  position: fixed;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.scoreFont {
+  font-size: 20;
+  color: red;
+}
+
+.timeFont {
+  font-size: 18;
+  color: green;
+}
